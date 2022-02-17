@@ -7,7 +7,7 @@ After going deep on emacs I thought why not give vim another chance. While I hav
 ![nvim screenshot](nvim.png)
 
 ## Installation
-This only works in Neovim; however, it can be made to work in vim. The only thing really keeping it from working in standard vim is the code completion plugin.
+This only works in Neovim; however, it can be made to work in vim. Coc and ToggleTerm are only Neovim. If you are using vim and want a terminal you can comment out ToggleTerm and uncomment vim-terminal (and change the keybind).
 There are a few requirements prior to using this config. The following need to be install on your system.
 
 * vim-plug

@@ -22,7 +22,8 @@ Plug 'https://github.com/preservim/nerdtree' "nerdtree
 Plug 'http://github.com/tpope/vim-surround' "Surrounding ysw)
 Plug 'https://github.com/ap/vim-css-color' "CSS Color preview
 Plug 'https://github.com/ryanoasis/vim-devicons' "Cool icons for nerdtree
-Plug 'https://github.com/tc50cal/vim-terminal' "vim-terminal
+"Plug 'https://github.com/tc50cal/vim-terminal' "vim-terminal
+Plug 'https://github.com/akinsho/toggleterm.nvim' "toggle terminal
 Plug 'https://github.com/Mofiqul/dracula.nvim' "dracula theme
 Plug 'https://github.com/shuple/vim-killring' "emacs like killring
 Plug 'https://github.com/neoclide/coc.nvim' "Code atuo completion. Requires nodejs and npm
@@ -33,7 +34,7 @@ call plug#end()
 nnoremap <C-f> :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
-nnoremap <C-s> :TerminalSplit zsh<CR>
+nnoremap <C-s> :ToggleTerm<CR>
 nnoremap <C-b> :TagbarToggle<CR>
 
 let g:NERDTreeDirArrowExpandable="+"
