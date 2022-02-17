@@ -2,12 +2,12 @@
 
 ## Introduction
 
-Aftre going deep on emacs I thought why not give vim another chance. While I have used vim for years I had never went too deep into configuring. Past configs were 10 lines at most. This time I decided to create something similar to what I had in emacs. This isn't a vim replacement for my emacs config nor is my emacs config a replacement for my vim config. Each function in their own way to get the job done.
+After going deep on emacs I thought why not give vim another chance. While I have used vim for years, I had never went too deep into the configuration. Past configs were 10 lines at most. This time, I decided to create something similar to what I had in emacs. This isn't a vim replacement for my emacs config nor is my emacs config a replacement for my vim config. Each function in their own way to get the job done.
 
 ![nvim screenshot](nvim.png)
 
 ## Installation
-This only works in Neovim however it can be made to work in vim. The only thing really keeping it from working in standard vim is the code completion plugin.
+This only works in Neovim; however, it can be made to work in vim. The only thing really keeping it from working in standard vim is the code completion plugin.
 There are a few requirements prior to using this config. The following need to be install on your system.
 
 * vim-plug
@@ -17,8 +17,8 @@ There are a few requirements prior to using this config. The following need to b
 * coc requries nodejs and npm installed
 
 Copy the init.vim to ~/.config/nvim/
-If the directory doesn't exist create it.
-install vim-plug (check their git for how to install)
+If the directory doesn't exist, create it.
+Install vim-plug (check their git for how to install)
 Run nvim and execute the following.
 ```vim
 :PlugInstall
