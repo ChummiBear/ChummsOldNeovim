@@ -11,7 +11,7 @@ This only works in Neovim; however, it can be made to work in vim. Coc and Toggl
 There are a few requirements prior to using this config. The following need to be install on your system.
 
 * vim-plug
-* font-awesome
+* font-awesome or a Nerd tree patched font
 * pip and neovim from pip (for python support needed for vim-terminal. Some distros come with it by default and some don't)
 * ctags or exuberant-ctags for tagbar
 * coc requries nodejs and npm installed

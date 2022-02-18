@@ -14,6 +14,7 @@
 :set backspace=indent,eol,start
 :syntax enable
 :set mouse=a
+:set encoding=UTF-8
 
 call plug#begin('~/.config/nvim/plugged')
 
