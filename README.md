@@ -1,4 +1,5 @@
 # Chumm's Neovim config
+This has been archived. New config [https://github.com/ChummiBear/ChummsNeoVim](https://github.com/ChummiBear/ChummsNeoVim)
 
 ## Introduction
 
